@@ -22114,11 +22114,11 @@ button.bg-indigo:focus {
 }
 
 .text-left {
-  text-align: left !important;
+  text-align: right !important;
 }
 
 .text-right {
-  text-align: right !important;
+  text-align: left !important;
 }
 
 .text-center {
@@ -22127,11 +22127,11 @@ button.bg-indigo:focus {
 
 @media (min-width: 576px) {
   .text-sm-left {
-    text-align: left !important;
+    text-align: right !important;
   }
 
   .text-sm-right {
-    text-align: right !important;
+    text-align: left !important;
   }
 
   .text-sm-center {
@@ -22141,11 +22141,11 @@ button.bg-indigo:focus {
 
 @media (min-width: 768px) {
   .text-md-left {
-    text-align: left !important;
+    text-align: right !important;
   }
 
   .text-md-right {
-    text-align: right !important;
+    text-align: left !important;
   }
 
   .text-md-center {
@@ -32422,7 +32422,8 @@ label.btn {
 .u-sidebar {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
+  left: auto;
   z-index: 1002;
   width: 18.75rem;
   height: 100%;
@@ -38475,7 +38476,7 @@ blockquote:not(.blockquote) p {
 .btn-add-cart {
   width: 100%;
   background-color: #94521e;
-  color: #ffffff;
+  color: #ffffff !important;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
