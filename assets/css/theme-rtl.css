@@ -38550,7 +38550,7 @@ blockquote:not(.blockquote) p {
 }
 
 .btn-primary-dark-w {
-  color: #333e48;
+  color: #ffffff;
   background-color: #94521e;
   border-color: #94521e;
 }
@@ -42179,7 +42179,7 @@ blockquote:not(.blockquote) p {
 }
 
 .logo-footer {
-  height: 40px;
+  height: 100px;
 }
 
 p.vendor-customer-registration .radio {
