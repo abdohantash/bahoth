@@ -23829,6 +23829,8 @@ button:focus {
   padding-top: 0;
   padding-bottom: 0;
   width: 9.375rem;
+  height: 80px;
+  object-fit: contain;
 }
 
 .u-header__navbar-brand-center {
