@@ -42484,6 +42484,7 @@ footer {
 
 .product-item .product-item__inner img {
   margin: 0 auto;
+  height: 188px;
 }
 
 @media (max-width: 768px) {
