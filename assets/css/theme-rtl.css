@@ -3492,9 +3492,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-  color: #1e2022;
-  background-color: #d8b700;
-  border-color: #cbac00;
+  color: #ffffff;
+  background-color: #94521e;
+  border-color: #94521e;
 }
 
 .btn-primary:focus,
@@ -3512,9 +3512,9 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
-  color: #1e2022;
-  background-color: #cbac00;
-  border-color: #bea100;
+  color: #ffffff;
+  background-color: #94521e;
+  border-color: #94521e;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -23679,8 +23679,9 @@ button:focus {
   Links
 ------------------------------------*/
 .link {
-  display: inline-block;
+  display: inline-flex;
   color: #000000 !important;
+  align-items: center;
 }
 
 .link__icon {
@@ -25673,9 +25674,9 @@ button:focus {
 
   .navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.10938rem solid #94521e;
-    border-bottom-right-radius: 0.4375rem;
-    border-bottom-left-radius: 0.4375rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 28%);
+    border-radius: 10px;
+    overflow: hidden;
   }
 
   .navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu-nav-link {
@@ -28702,7 +28703,7 @@ button:focus {
 .btn-primary[type]:hover,
 .btn-primary[type]:focus,
 .btn-primary[type]:active {
-  box-shadow: 0 4px 11px rgba(254, 215, 0, 0.35);
+  box-shadow: 0 4px 11px rgb(148 82 30 / 31%);
 }
 
 .btn-primary:not(label.btn),
@@ -37651,8 +37652,10 @@ blockquote:not(.blockquote) p {
 ------------------------------------*/
 .link__icon i {
   color: #fff;
-  margin-top: 2px;
-  font-size: 0.938rem;
+  font-size: 13px;
+  position: relative;
+  top: -1px;
+  right: 1px;
 }
 
 .link-hover__brand {
@@ -37705,7 +37708,7 @@ blockquote:not(.blockquote) p {
 /* Topbar Nav Link */
 .u-header-topbar__nav-link {
   font-size: 17px;
-  color: #334141;
+  color: #000000;
 }
 
 .u-header-topbar__nav-link i {
@@ -37834,7 +37837,7 @@ blockquote:not(.blockquote) p {
 .u-header+main .vertical-menu .u-header__nav-item.hs-sub-menu-opened .u-header__sub-menu {
   display: block !important;
   height: auto;
-  top: -2px;
+  top: -1px;
   right: calc(100% - 6px);
   bottom: 0;
 }
@@ -37904,6 +37907,7 @@ blockquote:not(.blockquote) p {
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+  width: 315px;
 }
 
 .u-header .vertical-menu .vmm-bg-extended .vmm-bg,
@@ -38057,8 +38061,6 @@ blockquote:not(.blockquote) p {
   }
 
   .vertical-menu .navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu {
-    box-shadow: none;
-    border-bottom-left-radius: 0;
   }
 
   .vertical-menu .navbar-expand-xl .u-header__navbar-nav .u-header__mega-menu-wrapper {
@@ -38803,7 +38805,7 @@ blockquote:not(.blockquote) p {
 
 .pagination-shop .page-link.current {
   font-weight: 700;
-  color: #262626;
+  color: #ffffff;
   background-color: #94521e;
   border-color: #94521e;
 }
@@ -39270,10 +39272,10 @@ blockquote:not(.blockquote) p {
   display: block;
   position: absolute;
   bottom: -5px;
-  right: 50%;
+  right: 0;
+  left: 0;
+  margin: auto;
   border-radius: 0 0 10px 10px;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   background-color: #94521e;
 }
 
@@ -42363,7 +42365,7 @@ p.vendor-customer-registration .radio input {
 
 
 .bg-2 {
-  background-color: #FFFAE5;
+  background-color: #fffcef;
 }
 
 .bg-3 {
@@ -42416,6 +42418,7 @@ p.vendor-customer-registration .radio input {
   z-index: 1;
   cursor: pointer;
   box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #94521e;
+  color: #fff;
 }
 
 .slick-arrow.next {
@@ -42616,6 +42619,26 @@ footer {
 
 .fa-chevron-left:before {
     content: "\f054";
+}
+
+.count-sec {
+  display: flex;
+  align-items: center;
+  background: #94521e;
+  padding: 5px 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.w-24 {
+  width: 24px;
+}
+
+.vmm-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* abdo responsive */
